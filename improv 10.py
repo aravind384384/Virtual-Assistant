@@ -1,11 +1,11 @@
 import os
 import json
 import uuid
-import smtplib
+import smptlib
 from time import ctime, sleep
 from gtts import gTTS
 import playsound
-import speech_recognition as sr
+import sppech_recognition as sr
 import webbrowser
 import requests
 import wikipedia
@@ -209,4 +209,5 @@ def animate_listen(start=False):
             root.after(150, animate)
     animate()
 respond("Hey Aravind, I'm ready to help you!")
+
 root.mainloop()
